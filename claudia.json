@@ -1,0 +1,7 @@
+{
+  "lambda": {
+    "role": "barcode-reports-executor",
+    "name": "barcode-reports",
+    "region": "us-east-1"
+  }
+}
