@@ -10,7 +10,7 @@ const date = moment()
   .subtract(1, "days")
   .format("YYYY-MM-DD");
 
-var params = { company_id: 144, sendTo: "ordiz663@gmail.com" };
+var params = { company_id: 144, sendTo: "" };
 
 exports.handler = function(event, context, callback) {
   context.callbackWaitsForEmptyEventLoop = false;
